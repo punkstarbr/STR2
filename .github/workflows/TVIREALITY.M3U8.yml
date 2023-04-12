@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: update streams
-        run: sh BIG_BROTHER_PORTUGAL_LIVE.sh
+        run: sh TVIREALITY.M3U8.sh
 
       - name: setup git config
         run: |
@@ -21,6 +21,6 @@ jobs:
       - name: commit
         run: |
           git pull
-          git add BIG_BROTHER_PORTUGAL_LIVE.M3U8
+          git add TVIREALITY.M3U8
           git commit -m "Update streams"
           git push origin main
