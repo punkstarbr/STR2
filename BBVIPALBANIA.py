@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 
 # URL da página desejada
-url_twitch = "https://www.twitch.tv/search?term=big%20brother"
+url_twitch = "https://www.twitch.tv/search?term=bbb"
 
 # Configurando Chrome options
 chrome_options = Options()
