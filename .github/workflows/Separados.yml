@@ -59,8 +59,7 @@ jobs:
       - name: execute py script 4
         run: python turquiatv.py        
         
-      - name: execute py script 5
-        run: python twitchplay.py         
+ 
         
       - name: execute py script 6
         run: python youtubeplay.py           
