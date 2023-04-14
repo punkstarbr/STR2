@@ -66,6 +66,7 @@ with open("rtpplay.m3u", "w") as iptv_file:
                 'quiet': True
             }
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                info = ydl.extract_info(link, download=False)
                 url = info.get("url", "unknown")
                 title = info.get("title", "unknown")
                 thumbnail = info.get("thumbnail", "unknown")
