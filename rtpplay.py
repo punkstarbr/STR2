@@ -1,18 +1,19 @@
 import time
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 import yt_dlp
 
-
-# Configuring Chrome options
+# Configurando as opções do Chrome
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
-# Instanciando o driver do Chrome
-driver = webdriver.Chrome(options=chrome_options)
+# Configurando o driver do Chrome
+chrome_driver_path = os.environ.get("CHROME_DRIVER_PATH")
+driver = webdriver.Chrome(executable_path=chrome_driver_path, options=chrome_options)
 
 # URL da página desejada
 url_rtp = "https://www.rtp.pt/play/"
@@ -20,39 +21,30 @@ url_rtp = "https://www.rtp.pt/play/"
 # Abrir a página desejada
 driver.get(url_rtp)
 
-# Aguardar alguns segundos para carregar todo o conteúdo da página
+# Aguardar alguns segundos para que a página seja carregada completamente
 time.sleep(5)
 
-from selenium.webdriver.common.keys import Keys
-
+# Encontrar o último vídeo na página e rolar até ele
 for i in range(3):
     try:
-        # Find the last video on the page
-        last_video = driver.find_element_by_xpath("//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
-        # Scroll to the last video
+        last_video = driver.find_element(By.XPATH, "//a[@class='ScCoreLink-sc-16kq0mq-0 jKBAWW tw-link'][last()]")
         actions = ActionChains(driver)
         actions.move_to_element(last_video).perform()
         time.sleep(2)
     except:
-        # Press the down arrow key for 50 seconds
         driver.execute_script("window.scrollBy(0, 10000)")
         time.sleep(2)
 
-
-# Encontre todos os elementos 'a' na página
+# Encontrar todos os elementos 'a' na página
 links = driver.find_elements(By.TAG_NAME, 'a')
-
-# Imprima todos os links presentes na página
-for link in links:
-    print(link.get_attribute('href'))
 
 # Obter todos os links presentes na página
 all_links = [link.get_attribute('href') for link in links]
 
-# Feche o driver
+# Fechar o driver
 driver.quit()
 
-# Crie um arquivo m3u com as informações dos links
+# Criar um arquivo m3u com as informações dos links
 with open("rtpplay.m3u", "w") as iptv_file:
     iptv_file.write("#EXTM3U\n")
 
@@ -66,11 +58,10 @@ with open("rtpplay.m3u", "w") as iptv_file:
                 info = ydl.extract_info(link, download=False)
                 title = info.get("title", "unknown")
                 thumbnail = info.get("thumbnail", "unknown")
-                
+
                 iptv_file.write(f'#EXTINF:-1 tvg-logo="{thumbnail}",{title}\n')
                 iptv_file.write(f"{link}\n")
 
         except Exception as e:
             print(f"Erro ao extrair informações de {link}: {e}")
             continue
-
