@@ -3,7 +3,11 @@
 https://activity.hdslb.com/blackboard/static/69f9e4f3aac6e9a83ffc867f236bdd0c/TG9I5yk5rr.mp4
 #EXTINF:-1 group-title="RTPPLAY" tvg-logo="None",bilibili (1)
 https://ir.bilibili.com/media/i0glr3sr/pkd64i9pusg2m4cjd6s1668756130298.m4v
+#EXTINF:-1 group-title="RTPPLAY" tvg-logo="unknown",unknown
+unknown
 #EXTINF:-1 group-title="RTPPLAY" tvg-logo="None",首页 | B站营销官网 (1)
 https://activity.hdslb.com/blackboard/static/20210803/cffd107c73fc638c142399e72cb0cb0f/aleiB9O7Bu.mp4
+#EXTINF:-1 group-title="RTPPLAY" tvg-logo="unknown",高级语言弹幕测试
+unknown
 #EXTINF:-1 group-title="RTPPLAY" tvg-logo="unknown",JzUN7b8Ek
 https://i0.hdslb.com/bfs/activity-plat/static/20210302/fd61576fc72dac89e5e7763dfd8d7bc7/JzUN7b8Ek.png
