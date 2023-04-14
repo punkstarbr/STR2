@@ -1,19 +1,22 @@
+import subprocess
 import time
 import os
 from selenium import webdriver
+from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.by import By
 import yt_dlp
 
-# Configurando as opções do Chrome
+
+
+
+# Configuring Chrome options
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
-# Configurando o driver do Chrome
-chrome_driver_path = os.environ.get("CHROME_DRIVER_PATH")
-driver = webdriver.Chrome(executable_path=chrome_driver_path, options=chrome_options)
+# Instanciando o driver do Chrome
+driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
 url_rtp = "https://www.rtp.pt/play/"
@@ -43,25 +46,3 @@ all_links = [link.get_attribute('href') for link in links]
 
 # Fechar o driver
 driver.quit()
-
-# Criar um arquivo m3u com as informações dos links
-with open("rtpplay.m3u", "w") as iptv_file:
-    iptv_file.write("#EXTM3U\n")
-
-    for link in all_links:
-        try:
-            ydl_opts = {
-                'skip_download': True,
-                'quiet': True
-            }
-            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                info = ydl.extract_info(link, download=False)
-                title = info.get("title", "unknown")
-                thumbnail = info.get("thumbnail", "unknown")
-
-                iptv_file.write(f'#EXTINF:-1 tvg-logo="{thumbnail}",{title}\n')
-                iptv_file.write(f"{link}\n")
-
-        except Exception as e:
-            print(f"Erro ao extrair informações de {link}: {e}")
-            continue
