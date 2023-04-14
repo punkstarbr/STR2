@@ -34,6 +34,10 @@ for _ in range(5):
 # Encontre todos os elementos 'a' na página
 links = driver.find_elements(By.TAG_NAME, 'a')
 
+# Imprima todos os links presentes na página
+for link in links:
+    print(link.get_attribute('href'))
+
 # Obter todos os links presentes na página
 all_links = [link.get_attribute('href') for link in links]
 
@@ -41,7 +45,7 @@ all_links = [link.get_attribute('href') for link in links]
 driver.quit()
 
 # Crie um arquivo m3u com as informações dos links
-with open("rtpplay", "w") as iptv_file:
+with open("rtpplay.m3u", "w") as iptv_file:
     iptv_file.write("#EXTM3U\n")
 
     for link in all_links:
