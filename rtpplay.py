@@ -20,7 +20,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_rtp = "https://archive.org/details/globo-rj-31.12.22-16.00"
+url_rtp = "https://archive.org/details/@danilod"
 
 # Abrir a página desejada
 driver.get(url_rtp)
