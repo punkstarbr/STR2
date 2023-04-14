@@ -54,3 +54,25 @@ all_links = [link.get_attribute('href') for link in links]
 
 # Fechar o driver
 driver.quit()
+
+# Crie um arquivo m3u com as informações dos links
+with open("rtpplay.m3u", "w") as iptv_file:
+    iptv_file.write("#EXTM3U\n")
+
+    for link in all_links:
+        try:
+            ydl_opts = {
+                'skip_download': True,
+                'quiet': True
+            }
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                info = ydl.extract_info(link, download=False)
+                title = info.get("title", "unknown")
+                thumbnail = info.get("thumbnail", "unknown")
+                
+                iptv_file.write(f'#EXTINF:-1 tvg-logo="{thumbnail}",{title}\n')
+                iptv_file.write(f"{link}\n")
+
+        except Exception as e:
+            print(f"Erro ao extrair informações de {link}: {e}")
+            continue
