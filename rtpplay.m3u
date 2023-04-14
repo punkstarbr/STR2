@@ -1,31 +1,237 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="None",Browse All of Google's Products & Services - Google (1)
-https://www.google.com/intl/en/about/products?tab=vh
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi_webp/Uvbz5mj6E00/maxresdefault.webp",🔍
-https://www.google.com.br/history/privacyadvisor/search/unauth?utm_source=googlemenu
-#EXTINF:-1 tvg-logo="https://cdn-images.rtp.pt/noticias/images/default_noticias.png?w=860&q=90",Lula da Silva e António Costa vão viajar juntos em avião militar da Embraer
-https://translate.google.com.br/translate?hl=en&sl=pt&u=https://www.rtp.pt/noticias/mundo&prev=search&pto=aue
-#EXTINF:-1 tvg-logo="https://cdn-images.rtp.pt/noticias/images/default_noticias.png?w=860&q=90",Carlos Pereira sai da comissão de inquérito à TAP após polémica com CGD
-https://translate.google.com.br/translate?hl=en&sl=pt&u=https://www.rtp.pt/noticias/videos&prev=search&pto=aue
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi_webp/qOrgzuR1DIA/maxresdefault.webp",A Mim, Nunca. | Estreia a 17 de janeiro na RTP Play | RTP Lab
-https://media.rtp.pt/rtplab/projetos/serie/a-mim-nunca/
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi_webp/qOrgzuR1DIA/maxresdefault.webp",A Mim, Nunca. | Estreia a 17 de janeiro na RTP Play | RTP Lab
-https://translate.google.com.br/translate?hl=en&sl=pt&u=https://media.rtp.pt/rtplab/projetos/serie/a-mim-nunca/&prev=search&pto=aue
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi_webp/qOrgzuR1DIA/maxresdefault.webp",A Mim, Nunca. | Estreia a 17 de janeiro na RTP Play | RTP Lab
-https://media.rtp.pt/rtplab/projetos/serie/a-mim-nunca/
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi_webp/NudwzojT_is/maxresdefault.webp",Documentário Emissora Nacional
-https://museu.rtp.pt/en/vitem/4/national-broadcaster-visit
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi_webp/NudwzojT_is/maxresdefault.webp",Documentário Emissora Nacional
-https://museu.rtp.pt/en/vitem/4/national-broadcaster-visit
-#EXTINF:-1 tvg-logo="None",RTP | Comercial (1)
-https://publicidade.rtp.pt/
-#EXTINF:-1 tvg-logo="None",RTP | Comercial (1)
-https://translate.google.com.br/translate?hl=en&sl=pt&u=https://publicidade.rtp.pt/&prev=search&pto=aue
-#EXTINF:-1 tvg-logo="None",RTP | Comercial (1)
-https://publicidade.rtp.pt/
-#EXTINF:-1 tvg-logo="https://cdn-images.rtp.pt/icm/images/dd/dda0d699fbd57863cd6e6a032d5e707c_N.jpg?",Bernardo Silva. A entrevista à RTP
-https://translate.google.com.br/translate?hl=en&sl=pt&u=https://www.rtp.pt/noticias/desporto/bernardo-silva-a-entrevista-a-rtp_v1150956&prev=search&pto=aue
-#EXTINF:-1 tvg-logo="https://cdn-images.rtp.pt/noticias/images/default_noticias.png?w=860&q=90",Lula da Silva e António Costa vão viajar juntos em avião militar da Embraer
-https://translate.google.com.br/translate?hl=en&sl=pt&u=https://www.rtp.pt/noticias/videos/mundo&prev=search&pto=aue
-#EXTINF:-1 tvg-logo="None",Privacy Policy – Privacy & Terms – Google
-https://policies.google.com/privacy?hl=en&fg=1
+#EXTINF:-1 tvg-logo="unknown",Assistir TV Globo Ao Vivo | Globoplay
+https://globoplay.globo.com/agora-na-tv/
+#EXTINF:-1 tvg-logo="unknown",Assistir Novelas online no Globoplay
+https://globoplay.globo.com/categorias/novelas/
+#EXTINF:-1 tvg-logo="unknown",Assistir Séries online no Globoplay
+https://globoplay.globo.com/categorias/series/
+#EXTINF:-1 tvg-logo="unknown",Assistir Jornalismo online no Globoplay
+https://globoplay.globo.com/categorias/jornalismo/
+#EXTINF:-1 tvg-logo="unknown",Assistir BBB23 Ao Vivo: Veja tudo o que acontece no Big Brother
+https://globoplay.globo.com/categorias/big-brother-brasil/
+#EXTINF:-1 tvg-logo="unknown",Explore o conteúdo de séries, novelas, filmes e canais de TV no Globoplay
+https://globoplay.globo.com/categorias/
+#EXTINF:-1 tvg-logo="unknown",Globoplay | Faça sua busca
+https://globoplay.globo.com/busca/
+#EXTINF:-1 tvg-logo="unknown",Bate-papo BBB - BBB 23 Ao Vivo | Assista no Globoplay
+https://globoplay.globo.com/bate-papo-bbb/ao-vivo/8642899/
+#EXTINF:-1 tvg-logo="unknown",Assistir Todas as Flores online no Globoplay
+https://globoplay.globo.com/todas-as-flores/t/pp7sN9wfdb/
+#EXTINF:-1 tvg-logo="unknown",Assistir BBB23 Ao Vivo: Veja tudo o que acontece no Big Brother
+https://globoplay.globo.com/categorias/big-brother-brasil/
+#EXTINF:-1 tvg-logo="unknown",Assistir Globo Repórter online no Globoplay
+https://globoplay.globo.com/globo-reporter/t/wh8cdfztm7/
+#EXTINF:-1 tvg-logo="unknown",Assistir The Voice Kids online no Globoplay
+https://globoplay.globo.com/the-voice-kids/t/MXTbgsChYm/
+#EXTINF:-1 tvg-logo="unknown",Assistir Jessie e Colombo online no Globoplay
+https://globoplay.globo.com/jessie-e-colombo/t/6b9MxTpcqq/
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_area=home&f_cpnt=destaque_premium.vendas&f_label=assinatura.assine_ja.globoplay&url=https%3A%2F%2Fgloboplay.globo.com%2F&origemId=2639
+#EXTINF:-1 tvg-logo="unknown",Assistir Amor Perfeito online no Globoplay
+https://globoplay.globo.com/amor-perfeito/t/K6QpjwxWKd/
+#EXTINF:-1 tvg-logo="unknown",Assistir Todas as Flores online no Globoplay
+https://globoplay.globo.com/todas-as-flores/t/pp7sN9wfdb/
+#EXTINF:-1 tvg-logo="unknown",Assistir Profissão Repórter online no Globoplay
+https://globoplay.globo.com/profissao-reporter/t/m9k2cnjw1D/
+#EXTINF:-1 tvg-logo="unknown",Assistir Partido Alto online no Globoplay
+https://globoplay.globo.com/partido-alto/t/fPfPG72bXb/
+#EXTINF:-1 tvg-logo="unknown",Assistir The Voice Kids online no Globoplay
+https://globoplay.globo.com/the-voice-kids/t/MXTbgsChYm/
+#EXTINF:-1 tvg-logo="unknown",Assistir A Muralha online no Globoplay
+https://globoplay.globo.com/a-muralha/t/fKG6b2HRzC/
+#EXTINF:-1 tvg-logo="unknown",Assistir Viva Salvador online no Globoplay
+https://globoplay.globo.com/viva-salvador/t/5nxCNbRtnJ/
+#EXTINF:-1 tvg-logo="unknown",Assistir Jessie e Colombo online no Globoplay
+https://globoplay.globo.com/jessie-e-colombo/t/6b9MxTpcqq/
+#EXTINF:-1 tvg-logo="unknown",Assistir Navio da Xuxa online no Globoplay
+https://globoplay.globo.com/navio-da-xuxa/t/xXR15sMJgW/
+#EXTINF:-1 tvg-logo="unknown",Assistir A Sucessora online no Globoplay
+https://globoplay.globo.com/a-sucessora/t/Lbg5p8sBpx/
+#EXTINF:-1 tvg-logo="unknown",Assistir Araguaia online no Globoplay
+https://globoplay.globo.com/araguaia/t/J8vwfPr9Rr/
+#EXTINF:-1 tvg-logo="unknown",Assistir Amor Perfeito online no Globoplay
+https://globoplay.globo.com/amor-perfeito/t/K6QpjwxWKd/
+#EXTINF:-1 tvg-logo="unknown",Assistir Malhação 2012 online no Globoplay
+https://globoplay.globo.com/malhacao-2012/t/sKLwmqfJ2w/
+#EXTINF:-1 tvg-logo="unknown",Assistir Tempero de Família online no Globoplay
+https://globoplay.globo.com/tempero-de-familia/t/pBs9Y6nt7j/
+#EXTINF:-1 tvg-logo="unknown",Assistir 27ª temporada de Que Marravilha! online no Globoplay
+https://globoplay.globo.com/que-marravilha!/t/bpTBK89rqJ/
+#EXTINF:-1 tvg-logo="unknown",Assistir PittyNando - As Suas, As Minhas E As Nossas Ao Vivo online no Globoplay
+https://globoplay.globo.com/pittynando-as-suas-as-minhas-e-as-nossas-ao-vivo/t/KT7qKFwtFY/
+#EXTINF:-1 tvg-logo="unknown",Assistir 5ª temporada de Que história é essa, Porchat? online no Globoplay
+https://globoplay.globo.com/que-historia-e-essa-porchat/t/bx6wMtrZG9/
+#EXTINF:-1 tvg-logo="unknown",Assistir 9ª temporada de Que Seja Doce online no Globoplay
+https://globoplay.globo.com/que-seja-doce/t/gbBGR6Hj1J/
+#EXTINF:-1 tvg-logo="unknown",Assistir 15ª temporada de Papo De Segunda online no Globoplay
+https://globoplay.globo.com/papo-de-segunda/t/Sch1z5HCzd/
+#EXTINF:-1 tvg-logo="unknown",Assistir O Fim do Mundo online no Globoplay
+https://globoplay.globo.com/o-fim-do-mundo/t/BY1Y8N7zFF/
+#EXTINF:-1 tvg-logo="unknown",Assistir Negro Muro online no Globoplay
+https://globoplay.globo.com/negro-muro/t/XgqpHrzSJw/
+#EXTINF:-1 tvg-logo="unknown",Assistir Psicopato online no Globoplay
+https://globoplay.globo.com/psicopato/t/PXsFb9bTVN/
+#EXTINF:-1 tvg-logo="unknown",Assistir O Repórter do Poder online no Globoplay
+https://globoplay.globo.com/o-reporter-do-poder/t/2FTyfdMy8D/
+#EXTINF:-1 tvg-logo="unknown",Assistir Ideias para Mudar o Mundo online no Globoplay
+https://globoplay.globo.com/ideias-para-mudar-o-mundo/t/dRPp2tpfq7/
+#EXTINF:-1 tvg-logo="unknown",Assistir Falas Femininas apresenta Histórias (Im)possíveis online no Globoplay
+https://globoplay.globo.com/falas-femininas-apresenta-historias-impossiveis/t/M5Zr1SkdHM/
+#EXTINF:-1 tvg-logo="unknown",Domitila Barros e Bruna Griphao conversam sobre o desentendimento entre atriz e Cezar
+https://globoplay.globo.com/v/11533204/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Domitila Barros, do BBB 23, afirma que Bruna Griphao não errou em defender Larissa
+https://globoplay.globo.com/v/11533200/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Bruna Griphao explica sua visão sobre conversa de Cezar e Domitila no dia anterior
+https://globoplay.globo.com/v/11533157/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",No BBB 23, Domitila Barros conversa com Bruna Griphao e defende Cezar
+https://globoplay.globo.com/v/11533126/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Larissa comenta críticas de brothers após retorno ao BBB 23: 'Maldade'
+https://globoplay.globo.com/v/11532933/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Larissa chora e é consolada por sisters no BBB 23: 'Quero ser forte'
+https://globoplay.globo.com/v/11532665/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Cezar tem crise de choro ao som de axé na casa do BBB 23
+https://globoplay.globo.com/v/11531842/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Aline Wirley e Amanda comentam primeira noite no Quarto Fundo do Mar: 'Esquisito'
+https://globoplay.globo.com/v/11530941/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Na sala da casa do BBB 23, Sarah Aline e Ricardo conversam sobre Cezar
+https://globoplay.globo.com/v/11530933/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Aline Wirley fala de sister no BBB 23: 'Depois eu que sou omissa'
+https://globoplay.globo.com/v/11530927/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Ricardo elogia Bruna Griphao no BBB 23: 'O que você fez hoje foi de tirar o chapéu'
+https://globoplay.globo.com/v/11530926/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Cezar diz para Domitila Barros sobre relação deles: 'Não quero que nada respingue em você'
+https://globoplay.globo.com/v/11530922/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Bruna Griphao relembra treta com Cezar e Larissa dispara: 'É uma mentalidade muito fraca'
+https://globoplay.globo.com/v/11530914/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Durante a festa, Sarah Aline e Ricardo conversam sobre as atitudes de Cezar no BBB 23
+https://globoplay.globo.com/v/11530908/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Ivete Sangalo se despede dos brothers e recebe aviso de punição no BBB 23
+https://globoplay.globo.com/v/11530899/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",BBB 23: Ivete Sangalo vai para debaixo do edredom no Quarto do Líder
+https://globoplay.globo.com/v/11530897/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Ivete Sangalo recebe atenção no BBB 23 e brinca: 'Não molhei o microfone'
+https://globoplay.globo.com/v/11530890/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",No confessionário, Ivete Sangalo vota em Dito e Boninho
+https://globoplay.globo.com/v/11530878/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Após show, Ivete Sangalo come salgadinhos da Festa e pede para conhecer a casa do BBB 23
+https://globoplay.globo.com/v/11530876/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Ivete Sangalo se despede do brothers com música Arerê
+https://globoplay.globo.com/v/11530872/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Cezar canta com Ivete Sangalo durante Festa do BBB 23
+https://globoplay.globo.com/v/11530867/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Ivete Sangalo faz trio com os brothers durante a Festa do BBB 23
+https://globoplay.globo.com/v/11530865/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Ivete Sangalo explica gírias baianas aos brothers
+https://globoplay.globo.com/v/11530864/editorial/99056c24-50d6-4d68-b9ac-c1696badf288/
+#EXTINF:-1 tvg-logo="unknown",Assistir BBB23 Ao Vivo: Veja tudo o que acontece no Big Brother
+https://globoplay.globo.com/categorias/big-brother-brasil/
+#EXTINF:-1 tvg-logo="unknown",Bate-papo BBB - BBB 23 Ao Vivo | Assista no Globoplay
+https://globoplay.globo.com/bate-papo-bbb/ao-vivo/8642899/
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.acompanhe_a_casa.1007.2&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.acompanhe_a_casa_2.1007.3&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.cozinha.1007.4&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.sala.1007.5&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.quarto_fundo_do_mar.1007.6&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.sala.1007.7&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.cozinha.1007.8&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.quarto_fundo_do_mar.1007.9&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.cozinha.1007.10&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.chuveiro.1007.11&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assine Globoplay
+https://globoplay.globo.com/assine/globoplay/?f_cpnt=trilho.cameras_ao_vivo.2&f_label=assinatura.confessionario.1007.12&f_area=home
+#EXTINF:-1 tvg-logo="unknown",Assistir TV Globo Ao Vivo | Globoplay
+https://globoplay.globo.com/agora-na-tv/
+#EXTINF:-1 tvg-logo="unknown",Assistir Filmes online no Globoplay
+https://globoplay.globo.com/categorias/filmes/
+#EXTINF:-1 tvg-logo="unknown",Assistir Mais Risadas online no Globoplay
+https://globoplay.globo.com/categorias/comedia/
+#EXTINF:-1 tvg-logo="unknown",Originais Globoplay
+https://globoplay.globo.com/categorias/originais/
+#EXTINF:-1 tvg-logo="unknown",Assistir Drama online no Globoplay
+https://globoplay.globo.com/categorias/drama/
+#EXTINF:-1 tvg-logo="unknown",Assistir Jornalismo online no Globoplay
+https://globoplay.globo.com/categorias/jornalismo/
+#EXTINF:-1 tvg-logo="unknown",Assistir Documentários online no Globoplay
+https://globoplay.globo.com/categorias/documentarios/
+#EXTINF:-1 tvg-logo="unknown",Assistir Variedades online no Globoplay
+https://globoplay.globo.com/categorias/variedades/
+#EXTINF:-1 tvg-logo="unknown",Assistir Todos os Podcasts online no Globoplay
+https://globoplay.globo.com/podcasts/categorias/todos-os-podcasts/
+#EXTINF:-1 tvg-logo="unknown",Assistir Canal OFF online no Globoplay
+https://globoplay.globo.com/categorias/canal-off-usa/
+#EXTINF:-1 tvg-logo="unknown",Assistir 4ª temporada de Vai Pra Onde? online no Globoplay
+https://globoplay.globo.com/vai-pra-onde/t/fhkpzX1dH1/
+#EXTINF:-1 tvg-logo="unknown",Assistir 4ª temporada de Lugar Incomum online no Globoplay
+https://globoplay.globo.com/lugar-incomum/t/PCFy8cSDjd/
+#EXTINF:-1 tvg-logo="unknown",Assistir Zambeze online no Globoplay
+https://globoplay.globo.com/zambeze/t/P6nKFnxxgC/
+#EXTINF:-1 tvg-logo="unknown",Assistir Alma Viajante online no Globoplay
+https://globoplay.globo.com/alma-viajante/t/788pQRmb2p/
+#EXTINF:-1 tvg-logo="unknown",Assistir Nalu e Zay pelo mundo online no Globoplay
+https://globoplay.globo.com/nalu-e-zay-pelo-mundo/t/67TLynxxKS/
+#EXTINF:-1 tvg-logo="unknown",Assistir Pedro Pelo Mundo online no Globoplay
+https://globoplay.globo.com/pedro-pelo-mundo/t/xsQ9P6zJmm/
+#EXTINF:-1 tvg-logo="unknown",Assistir Viagem a Qualquer Custo online no Globoplay
+https://globoplay.globo.com/viagem-a-qualquer-custo/t/B5dcGw5R9X/
+#EXTINF:-1 tvg-logo="unknown",Assistir Doce Califórnia online no Globoplay
+https://globoplay.globo.com/doce-california/t/LHXDxgzVcX/
+#EXTINF:-1 tvg-logo="unknown",Assistir Burle, Me Treina! online no Globoplay
+https://globoplay.globo.com/burle-me-treina!/t/7vXh2MNGm5/
+#EXTINF:-1 tvg-logo="unknown",Assistir Anota Aí online no Globoplay
+https://globoplay.globo.com/anota-ai/t/RG6GZgGRFY/
+#EXTINF:-1 tvg-logo="unknown",Assistir 10ª temporada de Diário do Olivier online no Globoplay
+https://globoplay.globo.com/diario-do-olivier/t/yt7By8ZV9M/
+#EXTINF:-1 tvg-logo="unknown",Assistir Férias em Família online no Globoplay
+https://globoplay.globo.com/ferias-em-familia/t/XryQtY1h7z/
+#EXTINF:-1 tvg-logo="unknown",Assistir Minha Vida é Kiu #partiuviagem online no Globoplay
+https://globoplay.globo.com/minha-vida-e-kiu-partiuviagem/t/j1pskhGGQX/
+#EXTINF:-1 tvg-logo="unknown",Assistir Um Brinde ao Vinho online no Globoplay
+https://globoplay.globo.com/um-brinde-ao-vinho/t/5YFyG2kBCG/
+#EXTINF:-1 tvg-logo="unknown",Assistir Tá na Hora do Café online no Globoplay
+https://globoplay.globo.com/ta-na-hora-do-cafe/t/2KJMRWNpf8/
+#EXTINF:-1 tvg-logo="unknown",Assistir Planeta Extremo online no Globoplay
+https://globoplay.globo.com/planeta-extremo/t/LBsvbcvWZF/
+#EXTINF:-1 tvg-logo="unknown",Explore o conteúdo de séries, novelas, filmes e canais de TV no Globoplay
+https://globoplay.globo.com/categorias/
+#EXTINF:-1 tvg-logo="unknown",Assistir Novelas online no Globoplay
+https://globoplay.globo.com/categorias/novelas/
+#EXTINF:-1 tvg-logo="unknown",Assistir Séries online no Globoplay
+https://globoplay.globo.com/categorias/series/
+#EXTINF:-1 tvg-logo="unknown",Assistir Jornalismo online no Globoplay
+https://globoplay.globo.com/categorias/jornalismo/
+#EXTINF:-1 tvg-logo="unknown",Assistir BBB23 Ao Vivo: Veja tudo o que acontece no Big Brother
+https://globoplay.globo.com/categorias/big-brother-brasil/
+#EXTINF:-1 tvg-logo="unknown",Assista Filmes Brasileiros online
+https://globoplay.globo.com/categorias/filmes/
+#EXTINF:-1 tvg-logo="unknown",Originais Globoplay
+https://globoplay.globo.com/categorias/originais/
+#EXTINF:-1 tvg-logo="unknown",Assistir Variedades online no Globoplay
+https://globoplay.globo.com/categorias/variedades/
+#EXTINF:-1 tvg-logo="unknown",Assistir Humor online no Globoplay
+https://globoplay.globo.com/categorias/humor/
+#EXTINF:-1 tvg-logo="unknown",Assistir Realities online no Globoplay
+https://globoplay.globo.com/categorias/reality-shows/
+#EXTINF:-1 tvg-logo="unknown",Assistir Documentários online no Globoplay
+https://globoplay.globo.com/categorias/documentarios/
+#EXTINF:-1 tvg-logo="unknown",Assistir Música online no Globoplay
+https://globoplay.globo.com/categorias/especiais/
+#EXTINF:-1 tvg-logo="unknown",Assistir Esportes online no Globoplay
+https://globoplay.globo.com/categorias/esportes/
+#EXTINF:-1 tvg-logo="unknown",Assistir Infantil online no Globoplay
+https://globoplay.globo.com/categorias/infantil/
+#EXTINF:-1 tvg-logo="unknown",Programas locais
+https://globoplay.globo.com/programas-locais/
+#EXTINF:-1 tvg-logo="unknown",Globoplay | Assista online aos programas da Globo
+https://globoplay.globo.com/#
+#EXTINF:-1 tvg-logo="unknown",Política de Privacidade
+https://privacidade.globo.com/int/pt-br/politica-de-privacidade/
