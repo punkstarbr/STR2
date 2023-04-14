@@ -24,9 +24,12 @@ driver.get(url_rtp)
 time.sleep(5)
 
 # Scroll to the bottom of the page
+scroll_y = 0
 for _ in range(5):
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    driver.execute_script(f"window.scrollTo(0, {scroll_y});")
+    scroll_y += 1000
     time.sleep(2)
+
 
 # Encontre todos os elementos 'a' na página
 links = driver.find_elements(By.TAG_NAME, 'a')
