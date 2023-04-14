@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 import yt_dlp
 from selenium.webdriver.common.by import By
-
+import time
 
 
 
@@ -42,7 +42,13 @@ for i in range(3):
 # Aguardar alguns segundos para carregar todo o conteúdo da página
 time.sleep(5)
 
-# Encontre todos os elementos 'a' na página
+# Take 10 screenshots every 5 seconds
+import time
+for i in range(10):
+    driver.save_screenshot('./FUCK/screenshot_{}.png'.format(i))
+    time.sleep(5)
+    
+    # Encontre todos os elementos 'a' na página
 links = driver.find_elements(By.TAG_NAME, 'a')
 
 # Imprima todos os links presentes na página
