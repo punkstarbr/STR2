@@ -39,8 +39,12 @@ for i in range(3):
         driver.execute_script("window.scrollBy(0, 10000)")
         time.sleep(2)
 
-# Encontrar todos os elementos 'a' na página
+# Encontre todos os elementos 'a' na página
 links = driver.find_elements(By.TAG_NAME, 'a')
+
+# Imprima todos os links presentes na página
+for link in links:
+    print(link.get_attribute('href'))
 
 # Obter todos os links presentes na página
 all_links = [link.get_attribute('href') for link in links]
