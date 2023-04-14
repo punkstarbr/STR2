@@ -1,4 +1,4 @@
-name: Extrair informações de vídeo usando yt-dlp
+name: Extrair informações de vídeo usando youtube-dl
 
 on:
   push:
@@ -12,22 +12,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install yt-dlp
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y python3-pip
-          pip3 install yt-dlp
+      - name: Install youtube-dl
+        run: sudo apt-get update && sudo apt-get install -y youtube-dl
 
       - name: Extrair informações de vídeo
-        run: |
-          yt-dlp --print-json https://www.bilibili.com/video/BV1nS4y1N7Fm/?spm_id_from=333.337.search-card.all.click > video_info.json
+        run: youtube-dl --dump-json https://www.bilibili.com/video/BV1nS4y1N7Fm/?spm_id_from=333.337.search-card.all.click > video_info.json
 
       - name: Gerar arquivo .m3u
         run: |
           echo "#EXTM3U" > playlist.m3u
-          echo "$(yt-dlp --get-title https://www.bilibili.com/video/BV1nS4y1N7Fm/?spm_id_from=333.337.search-card.all.click | sed 's/\&/\&amp;/g')" >> playlist.m3u
-          echo "#EXTINF:$(yt-dlp --get-duration https://www.bilibili.com/video/BV1nS4y1N7Fm/?spm_id_from=333.337.search-card.all.click | awk '{printf "%.0f",$1}') tvg-id="Bilibili" tvg-name="Bilibili" tvg-logo="https://i0.hdslb.com/bfs/vc/1f7d98d94ee4b40842c21d2f425a8f90a9619f12.png" group-title="Bilibili",$(yt-dlp --get-title https://www.bilibili.com/video/BV1nS4y1N7Fm/?spm_id_from=333.337.search-card.all.click | sed 's/\&/\&amp;/g')" >> playlist.m3u
-          echo "$(yt-dlp --get-url https://www.bilibili.com/video/BV1nS4y1N7Fm/?spm_id_from=333.337.search-card.all.click)" >> playlist.m3u
+          echo "#EXTINF:$(youtube-dl --get-duration https://www.bilibili.com/video/BV1nS4y1N7Fm/?spm_id_from=333.337.search-card.all.click | awk '{printf "%.0f",$1}') tvg-id="Bilibili" tvg-name="Bilibili" tvg-logo="https://i0.hdslb.com/bfs/vc/1f7d98d94ee4b40842c21d2f425a8f90a9619f12.png" group-title="Bilibili",$(youtube-dl --get-title https://www.bilibili.com/video/BV1nS4y1N7Fm/?spm_id_from=333.337.search-card.all.click | sed 's/\&/\&amp;/g')" >> playlist.m3u
+          echo "$(youtube-dl --get-url https://www.bilibili.com/video/BV1nS4y1N7Fm/?spm_id_from=333.337.search-card.all.click)" >> playlist.m3u
 
       - name: Salvar arquivo .m3u
         uses: actions/upload-artifact@v2
