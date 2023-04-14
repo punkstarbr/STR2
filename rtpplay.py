@@ -38,7 +38,7 @@ all_links = [link.get_attribute('href') for link in links]
 driver.quit()
 
 # Crie um arquivo m3u com as informações dos links
-with open("iptv_list.m3u", "w") as iptv_file:
+with open("rtpplay", "w") as iptv_file:
     iptv_file.write("#EXTM3U\n")
 
     for link in all_links:
