@@ -20,7 +20,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_rtp = "https://tviplayer.iol.pt/"
+url_rtp = "https://search.bilibili.com/all?keyword=blink+182&from_source=webtop_search&spm_id_from=333.1007&search_source=5&duration=3"
 
 # Abrir a página desejada
 driver.get(url_rtp)
