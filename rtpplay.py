@@ -39,6 +39,9 @@ for i in range(3):
         driver.execute_script("window.scrollBy(0, 10000)")
         time.sleep(2)
 
+# Aguardar alguns segundos para carregar todo o conteúdo da página
+time.sleep(5)
+
 # Encontre todos os elementos 'a' na página
 links = driver.find_elements(By.TAG_NAME, 'a')
 
