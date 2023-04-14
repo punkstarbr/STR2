@@ -66,12 +66,12 @@ with open("rtpplay.m3u", "w") as iptv_file:
                 'quiet': True
             }
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                info = ydl.extract_info(link, download=False)
+                url = info.get("url", "unknown")
                 title = info.get("title", "unknown")
                 thumbnail = info.get("thumbnail", "unknown")
                 
                 iptv_file.write(f'#EXTINF:-1 group-title=\"RTPPLAY\" tvg-logo="{thumbnail}",{title}\n')
-                iptv_file.write(f"{link}\n")
+                iptv_file.write(f"{url}\n")
 
         except Exception as e:
             print(f"Erro ao extrair informações de {link}: {e}")
