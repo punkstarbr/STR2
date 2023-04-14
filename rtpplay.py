@@ -20,7 +20,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada
-url_rtp = "https://www.youtube.com/channel/UCYfdidRxbB8Qhf0Nx7ioOYw"
+url_rtp = "https://tviplayer.iol.pt/"
 
 # Abrir a página desejada
 driver.get(url_rtp)
