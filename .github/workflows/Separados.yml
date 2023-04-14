@@ -45,7 +45,7 @@ jobs:
           pip install --user --upgrade selenium
           pip install yt-dlp
           pip install pytube
-          pip install beautifulsoup
+
           
           
       - name: execute py script
