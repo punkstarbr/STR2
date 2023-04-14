@@ -70,7 +70,7 @@ with open("rtpplay.m3u", "w") as iptv_file:
                 title = info.get("title", "unknown")
                 thumbnail = info.get("thumbnail", "unknown")
                 
-                iptv_file.write(f'#EXTINF:-1 tvg-logo="{thumbnail}",{title}\n')
+                iptv_file.write(f'#EXTINF:-1 group-title=\"YOUTUBE2\" tvg-logo="{thumbnail}",{title}\n')
                 iptv_file.write(f"{link}\n")
 
         except Exception as e:
