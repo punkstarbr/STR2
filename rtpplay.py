@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 import yt_dlp
+from selenium.webdriver.common.by import By
 
 
 
