@@ -54,7 +54,7 @@ def create_m3u8_file(url_livestream, output_filename):
         print(f"Error creating .m3u8 file: {e}")
 
 
-url1 = "https://livestream.com/accounts/30360708"
+url1 = "https://livestream.com/accounts/3332377"
 url2 = "https://livestream.com/accounts/31138991"
 
 create_m3u8_file(url1, 'TPAANGOLA.m3u8')
