@@ -49,7 +49,6 @@ try:
         f.write("#EXTM3U\n")
         f.write("#EXT-X-VERSION:3\n")
         f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000\n")
-        f.write(f"#EXTINF:-1,{event_url}\n")
         f.write(f"{stream_url}\n")
 except Exception as e:
     print(f"Erro ao criar o arquivo .m3u8: {e}")
