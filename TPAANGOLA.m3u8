@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
 #EXTVLCOPT:http-user-agent=Firefox
-https://playback2.akamaized.net/streams/30360708_9496693_lsi2rt5qknlho6eu96s_1/exp=1681667863~acl=%2f*~data=hdntl~hmac=3df3137d4f1795970f1c8562bbe540ada25f41e79f1aca0cb52ed71b2134bae1/media/30360708_9496693_lsi2rt5qknlho6eu96s_1@678000p.m3u8?dw=80&ts=1681578000
+https://playback2.akamaized.net/streams/3332377_10831614_lsi1lcfm84880tdp625_1/exp=1681668099~acl=%2f*~data=hdntl~hmac=d4716399235832ef42ff5b398cd8ca479ab9931e129f284db176ba862f3f7da8/media/3332377_10831614_lsi1lcfm84880tdp625_1@696000pb.m3u8?dw=80&ts=1681581600
