@@ -55,7 +55,7 @@ def create_m3u8_file(url_livestream, output_filename):
 
 
 url1 = "https://livestream.com/accounts/3332377"
-url2 = "https://livestream.com/accounts/31138991"
+url2 = "https://livestream.com/accounts/10205943"
 
 create_m3u8_file(url1, 'TPAANGOLA.m3u8')
 create_m3u8_file(url2, 'TPAANGOLANEWS.m3u8')
