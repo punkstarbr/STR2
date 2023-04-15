@@ -7,6 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 import yt_dlp
 import streamlink
+import re
 
 
 def create_m3u8_file(url_livestream, output_filename):
@@ -38,24 +39,26 @@ def create_m3u8_file(url_livestream, output_filename):
         # Close the driver
         driver.quit()
 
-    # Extract the stream URL using Streamlink
-    streams = streamlink.streams(event_url)
-    stream_url = streams["best"].url
+    # Extract account and event IDs from the event URL
+    account_id, event_id = re.search(r'/accounts/(\d+)/events/(\d+)', event_url).groups()
 
-    # Write the stream URL in the output file
+    # Construct the new URL using the account and event IDs
+    new_stream_url = f"https://api.new.livestream.com/accounts/{account_id}/events/{event_id}/live.m3u8"
+
+    # Write the new stream URL in the output file
     try:
         with open(output_filename, 'w', encoding='utf-8') as f:
             f.write("#EXTM3U\n")
             f.write("#EXT-X-VERSION:3\n")
             f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000\n")
             f.write("#EXTVLCOPT:http-user-agent=Firefox\n")
-            f.write(f"{stream_url}\n")
+            f.write(f"{new_stream_url}\n")
     except Exception as e:
         print(f"Error creating .m3u8 file: {e}")
 
 
-url1 = "https://livestream.com/accounts/3332377"
-url2 = "https://livestream.com/accounts/10205943"
+url1 = "https://livestream.com/accounts/30360708"
+url2 = "https://livestream.com/accounts/31138991"
 
 create_m3u8_file(url1, 'TPAANGOLA.m3u8')
 create_m3u8_file(url2, 'TPAANGOLANEWS.m3u8')
