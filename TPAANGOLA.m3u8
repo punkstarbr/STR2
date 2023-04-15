@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
 #EXTVLCOPT:http-user-agent=Firefox
-https://api.new.livestream.com/accounts/3332377/events/10831614/live.m3u8
+http://api.new.livestream.com/accounts/31138991/events/10556832/live.m3u8
