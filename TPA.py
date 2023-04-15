@@ -43,7 +43,7 @@ def create_m3u8_file(url_livestream, output_filename):
     account_id, event_id = re.search(r'/accounts/(\d+)/events/(\d+)', event_url).groups()
 
     # Construct the new URL using the account and event IDs
-    new_stream_url = f"https://api.new.livestream.com/accounts/{account_id}/events/{event_id}/live.m3u8"
+    new_stream_url = f"http://api.new.livestream.com/accounts/{account_id}/events/{event_id}/live.m3u8"
 
     # Write the new stream URL in the output file
     try:
@@ -57,8 +57,8 @@ def create_m3u8_file(url_livestream, output_filename):
         print(f"Error creating .m3u8 file: {e}")
 
 
-url1 = "https://livestream.com/accounts/3332377"
-url2 = "https://livestream.com/accounts/31138991"
+url1 = "https://livestream.com/accounts/31138991"
+url2 = "https://livestream.com/accounts/3332377"
 
 create_m3u8_file(url1, 'TPAANGOLA.m3u8')
 create_m3u8_file(url2, 'TPAANGOLANEWS.m3u8')
