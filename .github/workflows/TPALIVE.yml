@@ -28,10 +28,19 @@ jobs:
     - name: Run Python script
       run: python youtubeplay3.py
 
-    - name: Commit and push changes
+    - name: commit files
       run: |
-        git config user.name "Your Name"
-        git config user.email "your.email@example.com"
-        git add TPAANGOLA.m3u8
-        git commit -m "Update TPAANGOLA.m3u8"
-        git push
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update data" -a
+          
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date '+%Y-%m-%d')"
+        
+    - name: push changes
+      uses: ad-m/github-push-action@master
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main  
