@@ -26,7 +26,7 @@ jobs:
 
 
     - name: Run Python script
-      run: python youtubeplay3.py
+      run: python TPA.py
 
     - name: commit files
       run: |
