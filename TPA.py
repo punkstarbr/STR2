@@ -13,7 +13,7 @@ import re
 def create_m3u8_file(url_livestream, output_filename):
     # Configuring Chrome options
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    #chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
 
     # Instantiate the Chrome driver
@@ -25,36 +25,58 @@ def create_m3u8_file(url_livestream, output_filename):
     # Wait a few seconds for the entire content of the page to load
     time.sleep(5)
 
+    # Find all the event links
+    event_links = driver.find_elements(by='xpath', value="//a[contains(@class, 'event_card_image')]")
+
+    # Loop through the event links and try to click on the first accessible one
+    event_clicked = False
+    for event_link in event_links:
+        try:
+            event_link.click()
+            event_clicked = True
+            break
+        except:
+            continue
+
+    if not event_clicked:
+        print("Error clicking on event link: No accessible events found.")
+        driver.quit()
+        return
+
+    # Wait a few seconds for the event page to load
+    time.sleep(5)
+
     # Get the page source again after scrolling to the bottom
     html_content = driver.page_source
 
-    # Find the links and titles of the videos found
+    # Find the .m3u8 link in the performance log
     try:
-        soup = BeautifulSoup(html_content, "html.parser")
-        event_link = soup.find("a", class_="event_card_image ng-isolate-scope")
-        event_url = "https://livestream.com" + event_link["href"]
+        log_entries = driver.execute_script("return window.performance.getEntries();")
+        link = ""
+        for entry in log_entries:
+            if ".m3u8" in entry['name']:
+                link = entry['name']
+                break
     except Exception as e:
-        print(f"Error: {e}")
-    finally:
-        # Close the driver
+        print(f"Error finding .m3u8 link: {e}")
         driver.quit()
+        return
 
-    # Extract account and event IDs from the event URL
-    account_id, event_id = re.search(r'/accounts/(\d+)/events/(\d+)', event_url).groups()
-
-    # Construct the new URL using the account and event IDs
-    new_stream_url = f"http://api.new.livestream.com/accounts/{account_id}/events/{event_id}/live.m3u8"
-
-    # Write the new stream URL in the output file
+    # Write the .m3u8 link into the output file
     try:
         with open(output_filename, 'w', encoding='utf-8') as f:
             f.write("#EXTM3U\n")
             f.write("#EXT-X-VERSION:3\n")
             f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000\n")
             f.write("#EXTVLCOPT:http-user-agent=Firefox\n")
-            f.write(f"{new_stream_url}\n")
+            f.write(f"{link}\n")
     except Exception as e:
         print(f"Error creating .m3u8 file: {e}")
+        driver.quit()
+        return
+
+    # Close the driver
+    driver.quit()
 
 
 url1 = "https://livestream.com/accounts/31138991"
