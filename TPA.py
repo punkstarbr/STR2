@@ -13,7 +13,7 @@ import re
 def create_m3u8_file(url_livestream, output_filename):
     # Configuring Chrome options
     chrome_options = Options()
-    #chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
 
     # Instantiate the Chrome driver
