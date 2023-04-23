@@ -66,9 +66,6 @@ def create_m3u8_file(url_livestream, output_filename):
     try:
         with open(output_filename, 'w', encoding='utf-8') as f:
             f.write("#EXTM3U\n")
-            f.write("#EXT-X-VERSION:3\n")
-            f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000\n")
-            f.write("#EXTVLCOPT:http-user-agent=Firefox\n")
             f.write(f"{link}\n")
     except Exception as e:
         print(f"Error creating .m3u8 file: {e}")
